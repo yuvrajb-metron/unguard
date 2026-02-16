@@ -18,7 +18,7 @@ dependencies {
 	// WARNING this is a version of httpcore that is vulnerable to CLRF injection in HTTP headers
 	implementation group: 'org.apache.httpcomponents', name: 'httpcore', version: '4.4.5'
 	// https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient
-	implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.4'
+	implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.13'
 
 	// CVE-2021-44228 10.0 RCE VULNERABILITY in log4j < 2.4.1 in combination with JDK < 8u121
 	// https://security.snyk.io/vuln/SNYK-JAVA-ORGAPACHELOGGINGLOG4J-2314720
